@@ -32,7 +32,7 @@ const Services = () => {
       }
    ]
   return (
-    <div className="mt-28 mb-10">
+    <div className="lg:p-20 sm:p-14 md:p-20 mt-14 lg:mt-0 md:mt-0 p-5">
       <div className=" text-center mb-10">
         <h1 className="text-primary font-bold text-xl">OUR SERVICES</h1>
         <h1 className="text-4xl">Services We Provide</h1>

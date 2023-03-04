@@ -9,7 +9,7 @@ import Header from './Shared/Header';
 
 function App() {
   return (
-    <div className="max-w-7xl  mx-auto lg:px-12 px-5 md:px-12">
+    <div className="max-w-7xl  mx-auto lg:px-12 px-5 md:px-10">
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

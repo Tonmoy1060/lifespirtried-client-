@@ -54,7 +54,7 @@ const Header = () => {
               </li>
 
               {user && (
-                <li className="font-semibold hover:underline hover:text-secondary  decoration-secondary decoration-4 underline-offset-[32.5px]">
+                <li className="font-semibold hover:underline hover:text-accent  decoration-accent decoration-4 underline-offset-[32.5px]">
                   <Link to="dashboard">Dashboard</Link>
                 </li>
               )}
@@ -66,7 +66,7 @@ const Header = () => {
                   </Link>
                 </li>
               ) : (
-                <li className=" font-semibold  rounded-full text-white  bg-primary decoration-secondary ">
+                <li className=" font-semibold  rounded-full text-white  bg-primary decoration-accent ">
                   <Link to={"login"}>Login</Link>
                 </li>
               )}
@@ -78,36 +78,36 @@ const Header = () => {
         </div>
         <div className="navbar-end hidden lg:flex ">
           <ul className="menu menu-horizontal flex-nowrap justify-end p-0">
-            <li className="  hover:underline hover:text-secondary decoration-secondary decoration-4 underline-offset-[32.5px] ">
+            <li className="  hover:underline hover:text-accent decoration-accent decoration-4 underline-offset-[32.5px] ">
               <Link className="rounded font-semibold px-6" to={"/"}>Home</Link>
             </li>
 
-            <li className=" rounded hover:underline hover:text-secondary  decoration-secondary decoration-4 underline-offset-[32.5px]">
+            <li className=" rounded hover:underline hover:text-accent  decoration-accent decoration-4 underline-offset-[32.5px]">
               <Link className="rounded font-semibold px-6" to={"menu/"}>Menu</Link>
             </li>
 
-            <li className="  hover:underline hover:text-secondary  decoration-secondary decoration-4 underline-offset-[32.5px]">
+            <li className="  hover:underline hover:text-accent  decoration-accent decoration-4 underline-offset-[32.5px]">
               <Link className="rounded font-semibold px-6" to={"about"}>About</Link>
             </li>
 
-            <li className="  hover:underline hover:text-secondary  decoration-secondary decoration-4 underline-offset-[32.5px]">
+            <li className="  hover:underline hover:text-accent  decoration-accent decoration-4 underline-offset-[32.5px]">
               <Link className="rounded font-semibold px-6" to={"contact"}>Contact</Link>
             </li>
 
             {user && (
-              <li className=" hover:underline hover:text-secondary  decoration-secondary decoration-4 underline-offset-[32.5px]">
+              <li className=" hover:underline hover:text-accent  decoration-accent decoration-4 underline-offset-[32.5px]">
                 <Link className="rounded font-semibold px-6" to="dashboard">Dashboard</Link>
               </li>
             )}
 
             {user ? (
-              <li className=" hover:underline hover:text-secondary  decoration-secondary decoration-4 underline-offset-[32.5px]">
+              <li className=" hover:underline hover:text-accent  decoration-accent decoration-4 underline-offset-[32.5px]">
                 <Link className="font-semibold rounded-full text-white  bg-primary px-5 lg:mx-1" onClick={handleSignOut} to="login">
                   Sign Out
                 </Link>
               </li>
             ) : (
-              <li className=" hover:underline hover:text-secondary  decoration-secondary  decoration-4 underline-offset-[32.5px]">
+              <li className=" hover:underline hover:text-accent  decoration-accent  decoration-4 underline-offset-[32.5px]">
                 <Link className="font-semibold  rounded-full text-white  bg-primary px-6 lg:mx-1" to={"login"}>Login</Link>
               </li>
             )}

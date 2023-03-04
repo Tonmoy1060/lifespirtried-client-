@@ -9,7 +9,7 @@ const ContactForm = () => {
     >
       <div className="text-white  w-3/4 mx-auto py-14">
         <div >
-          <h1 className="text-secondary font-semibold text-xl">Contact Us</h1>
+          <h1 className="text-primary font-semibold text-xl">Contact Us</h1>
           <h1 className="text-3xl">Stay Connected With Us</h1>
         </div>
         <form className="text-black mt-8 " action="">

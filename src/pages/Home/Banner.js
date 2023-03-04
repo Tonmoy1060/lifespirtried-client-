@@ -5,11 +5,11 @@ import Button from "../../Shared/Button";
 
 const Banner = () => {
   return (
-    <div style={{background: `url(${bg})`}} className='hero min-h-screen '>
-      <div className="hero-content flex-col lg:flex-row-reverse lg:pb-28">
+    <div style={{background: `url(${bg})`}} className='hero grid content-center min-h-screen '>
+      <div className="hero-content flex-col lg:pb-20 lg:flex-row-reverse ">
         <img
           src={chair}
-          className="lg:max-w-2xl rounded-lg shadow-2xl hero-overlay bg-opacity-60"
+          className="lg:max-w-xl rounded-lg shadow-2xl hero-overlay bg-opacity-60"
         />
         <div className="my-10 lg:pb-0 lg:my-0">
           <h1 className="text-5xl font-bold">Box Office News!</h1>

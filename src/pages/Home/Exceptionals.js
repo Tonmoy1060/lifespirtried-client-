@@ -4,11 +4,11 @@ import Button from "../../Shared/Button";
 
 const Exceptional = () => {
   return (
-    <div className="hero min-h-screen lg:my-28 my-14">
-      <div className="hero-content flex-col gap-16 lg:flex-row lg:w-11/12 lg:mx-auto">
+    <div className="hero min-h-screen grid content-center mb-14">
+      <div className="hero-content flex-col gap-16 lg:flex-row ">
         <img
           src={exceptional}
-          className="lg:max-w-lg rounded-lg shadow-2xl"
+          className="lg:max-w-xl rounded-lg shadow-2xl"
         />
         <div className="">
           <h1 className="text-3xl font-bold">Exceptional Hijama Care, on Your Terms</h1>
