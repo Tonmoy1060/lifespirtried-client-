@@ -5,7 +5,7 @@ import Button from "../../Shared/Button";
 
 const Banner = () => {
   return (
-    <div style={{background: `url(${bg})`}} className='hero grid content-center min-h-screen '>
+    <div style={{background: `url(${bg})`}} className='hero  grid content-center min-h-screen '>
       <div className="hero-content flex-col lg:pb-20 lg:flex-row-reverse ">
         <img
           src={chair}

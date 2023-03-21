@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { signOut } from "firebase/auth";
 import auth from "../firebase.init";
-import logo from "../assets/top-logo.png";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   const [user, loading, error] = useAuthState(auth);
@@ -72,8 +72,8 @@ const Header = () => {
               )}
             </ul>
           </div>
-          <div className=" flex items-center">
-            <img className="w-10/12 p-2 lg:px-8" src={logo} alt="" />
+          <div className="">
+            <img className="w-44 h-24 px-0 sm:" src={logo} alt="" />
           </div>
         </div>
         <div className="navbar-end hidden lg:flex ">

@@ -4,7 +4,7 @@ import background from "../../assets/images/appointment.png";
 const ContactForm = () => {
   return (
     <div
-      className="mt-28 text-center"
+      className="lg:mt-28 text-center"
       style={{ background: `url(${background})` }}
     >
       <div className="text-white  w-3/4 mx-auto py-14">

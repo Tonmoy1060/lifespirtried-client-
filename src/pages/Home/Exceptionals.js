@@ -4,7 +4,7 @@ import Button from "../../Shared/Button";
 
 const Exceptional = () => {
   return (
-    <div className="hero min-h-screen grid content-center mb-14">
+    <div className="hero my-14 lg:py-14 md:py-14 py-7 grid content-center lg:mb-14">
       <div className="hero-content flex-col gap-16 lg:flex-row ">
         <img
           src={exceptional}
