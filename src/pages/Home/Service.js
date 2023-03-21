@@ -3,7 +3,7 @@ import Button from "../../Shared/Button";
 
 const Service = ({ service }) => {
   return (
-    <div className="card lg:max-w-max bg-base-100 shadow-xl">
+    <div className="card cursor-pointer lg:max-w-max bg-base-100 shadow-xl">
       <figure className="lg:px-14 lg:pt-10 pt-5">
         <img
           src={service?.img}
